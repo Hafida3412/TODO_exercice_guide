@@ -18,7 +18,7 @@ function addTask(){
     const newTask = taskCard.cloneNode(true)  //clone the task card
     const newTestArea = newTask.querySelector('.task') //on définit la valeur de la zone pour qu'elle ne soit pas vide
 
-    newTextArea.value = "New Task" //set new task text to "Nex Task"
+    newTextArea.value = "New Task" //set new task text to "New Task"
 
-  // tasksContainer.appendChild(newTask)  // append new task to the tasks container
+    tasksContainer.appendChild(newTask)  // append new task to the tasks container
 }
